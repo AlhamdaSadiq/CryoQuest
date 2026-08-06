@@ -1,8 +1,25 @@
 # 🌑 Lunar Ice Detection & Characterization — Chandrayaan-2
 
-**PS-8: Detection & Characterization of Subsurface Ice in Lunar South Polar Regions Using Chandrayaan-2 Radar and Imagery Data**
+**PS-15: Detection & Characterization of Subsurface Ice in Lunar South Polar Regions Using Chandrayaan-2 Radar and Imagery Data**
+
 
 A transparent, physics-based pipeline that fuses illumination geometry, dual-frequency radar, and optical imagery from Chandrayaan-2 to map subsurface water ice in the Moon's permanently shadowed south-polar craters — **no black-box ML anywhere in the loop.**
+
+---
+
+**TEAM DETAILS**
+
+Team name: AIS
+
+Team Leader:  
+Alhamda Iqbal Sadiq | 25sadiqai@rbunagpur.in
+
+Team member 2:  
+Siddhi Ade | siddhia822@gmail.com
+
+Team member 3:  
+Riddhima Chachra | chachrariddhima@gmail.com
+
 
 ---
 
