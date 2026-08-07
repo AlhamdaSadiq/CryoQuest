@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "rank": 1,
+        "score": 0.9335234831969775,
+        "distance_to_ice_m": 5.0,
+        "slope_degrees": 1.662918210029602,
+        "illumination_fraction": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          -177.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "rank": 2,
+        "score": 0.9168503355186023,
+        "distance_to_ice_m": 5.0,
+        "slope_degrees": 2.496575355529785,
+        "illumination_fraction": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          372.5,
+          -557.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "rank": 3,
+        "score": 0.8802399072649592,
+        "distance_to_ice_m": 15.0,
+        "slope_degrees": 1.0052776336669922,
+        "illumination_fraction": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          -97.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "rank": 4,
+        "score": 0.8669612604668273,
+        "distance_to_ice_m": 11.180339887498949,
+        "slope_degrees": 2.9380311965942383,
+        "illumination_fraction": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          252.5,
+          -172.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "rank": 5,
+        "score": 0.8521381966672019,
+        "distance_to_ice_m": 10.0,
+        "slope_degrees": 4.071272373199463,
+        "illumination_fraction": 1.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.5,
+          -112.4
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+data:
+  dem_dir: data/dem
+  radar_dir: data/radar
+  ohrc_dir: data/ohrc
+  output_dir: data/output
+illumination:
+  latitude: -90.0
+  longitude: 0.0
+  cycle_days: 1.0
+  time_step_hours: 12.0
+  tm2_resolution: 5.0
+  ohrc_resolution: 0.5
+  direct_illumination_threshold: 0.0
+  secondary_illumination_angle: 5.0
+  doubly_shadowed_criteria:
+    max_direct_fraction: 0.0
+    max_secondary_fraction: 0.0
+radar:
+  bands:
+  - L
+  - S
+  polarization: full-pol
+  cpr_threshold: 1.0
+  dop_threshold: 0.3
+  min_passes: 2
+  agreement_threshold: 0.6
+  backscatter_percentile_low: 5
+  backscatter_percentile_high: 95
+optical:
+  local_variance_window: 15
+  edge_detection_threshold: 0.5
+  boulder_detection:
+    min_area_pixels: 9
+    max_area_pixels: 500
+    intensity_threshold: 0.7
+  glcm_distances:
+  - 1
+  - 3
+  - 5
+  glcm_angles:
+  - 0
+  - 45
+  - 90
+  - 135
+fusion:
+  weights:
+    cpr: 0.35
+    dop: 0.25
+    backscatter: 0.2
+    freshness_suppression: -0.2
+  score_min: 0.0
+  score_max: 1.0
+  high_confidence_threshold: 0.7
+volume:
+  depth_meters: 5.0
+  mixing_model: maxwell-garnett
+  dielectric:
+    regolith:
+      min: 2.5
+      max: 3.5
+      nominal: 3.0
+    ice:
+      min: 3.1
+      max: 3.2
+      nominal: 3.15
+  uncertainty_samples: 1000
+planning:
+  landing_weights:
+    ice_proximity: 0.4
+    slope_safety: 0.3
+    illumination: 0.3
+  max_slope_degrees: 15.0
+  min_illumination_fraction: 0.7
+  search_radius_meters: 5000.0
+  traverse:
+    max_slope_degrees: 20.0
+    hazard_penalty_weight: 2.0
+    ice_region_penalty: 10.0
+    grid_resolution: 10.0
+  top_n_sites: 5
+outputs:
+  ice_probability_map: ice_probability_map.tif
+  radar_framework_doc: radar_detection_framework.md
+  landing_site_shortlist: landing_site_shortlist.csv
+  rover_traverse_path: rover_traverse_path.geojson
+  volume_estimate: volume_estimate.json
+  validation_report: validation_report.md
