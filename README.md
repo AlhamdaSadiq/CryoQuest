@@ -38,7 +38,7 @@ No reliable **labelled** ice/non-ice dataset exists for this terrain, so a train
 | 4 |           Fusion           | Combines the shadow mask + radar criteria + freshness suppression into one documented, weighted ice-likelihood score.    |
 | 5 | Repeat-Pass Check + Volume | Keeps only pixels consistent across independent passes; converts probability to ice volume via a Maxwell-Garnett         |                          | dielectric mixing model (top ~5 m, with uncertainty range).                                                              |
 | 6 |    Landing & Traverse      | Ranks landing sites by ice proximity, slope safety, and illumination; plans a rover path with A* search.                 |
-|
+
 
 **Architecture:** four sequential modules — 
     illumination  →  radar  →  optical  →  fusion/volume/path-planning — each single-purpose and independently interpretable. (IIRS was excluded: it needs light, so it can't see inside the shadowed target terrain.)
