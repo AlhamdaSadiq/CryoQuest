@@ -1,0 +1,6 @@
+{
+  "name": "Lunar Command",
+  "description": "Lunar mission control, crater depth profiling, dielectric topographic overlay, hazard monitoring, and trajectory pathfinding portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
