@@ -1,3 +1,14 @@
+**Team Name: AIS**
+
+**Team Leader:  
+Alhamda Sadiq | 25sadiqai@rbunagpur.in**
+
+**Team Member 1:  
+Siddhi Ade | 25adess@rbunagpur.in**
+
+**Team Member 2:  
+Riddhima Chachra | 25chachrar@rbunagpur.in**
+#  
 # Lunar Ice Detection System
 
 ### Detection and Characterization of Subsurface Ice in Lunar South Polar Regions Using Chandrayaan-2 Radar and Imagery Data for Landing Site and Rover Traverse Planning
